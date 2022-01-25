@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>about</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="leftside">
+                <div class="navbar-links">
+                    <a href="home.html">home</a>
+                </div>
+
+                <div class="navbar-links">
+                    <a href="about.html">about</a>
+                </div>
+
+                <div class="navbar-links active-nav-link">
+                    <a href="aknownspace.html">.aknownspace</a>
+                </div>
+
+                <div class="navbar-links">
+                    <a href="imprint.html">imprint and use of data</a>
+                </div>
+            </div>
+            
+            <div class="rightside">
+                <div class="brand"></div>
+                    <div>YourFriendlyPhysicist</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<div class="content-wrapper">
+    <div class="two-column-wrapper">
+        <div class="aknownspace-image-wrapper">
+            <div class="crop">
+                <img src="images/aknownspace_images/aknownspace_header.png" alt="", style="width: 45vw; min-width: 330px";>
+            </div>
+        </div>
+        <div class="profile-content-wrapper">
+            <h1>Welcome to .aknonwspace</h1>
+             <p> We are an open access, multilingual, interdisciplinary creative/social arts platform and community-curated online space, 
+               on issues & agenda our network together sets in focus. We hope to stage and share creative work of individuals or groups,
+               which fits our agenda. We wish to place at center stage, the voice of organized movements across the world. </p>
+
+             <p>  Submitted work is handled, edited and curated by an international community 
+              of individuals across cultural and professional domains</p>
+
+        </div>
+    </div>
+
+              <div class="content-wrapper">
+                <div class="portfolio-items-wrapper">
+                    
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-bkg" style="background-image:url(images/aknownspace_images/aknownspace1.jpeg)"></div>
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="">
+                            </div>
+                            <div class="subtitle">
+                                <a style="text-decoration: none; color:#21618C;" href="aknownspace/issue1/issue1_main.html">aknownspace I <br><br>
+                                    something real, something vulnerable, something that makes you feel something!</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-bkg" style="background-image:url(images/aknownspace_images/aknownspace2.jpeg)"></div>
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img src="">
+                            </div>
+                            <div class="subtitle">
+                                <a style="text-decoration: none; color:#21618C;" href="aknownspace/issue2/issue2_main.html">aknownspace II <br><br>
+                                    the ecological crisis and the social justice movement </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                
+    
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-img-bkg" style="background-image:url(images/aknownspace_images/aknownspace3.jpg)" href="aknownspace/issue1/issue1_main.html"></div>
+                        <div class="img-text-wrapper">
+                            <div class="logo-wrapper">
+                                <img href="aknownspace/issue1/issue1_main.html">
+                            </div>
+                            <div class="subtitle" href="aknownspace/issue1/issue1_main.html">
+                                <a style="text-decoration: none; color:#21618C;" href="aknownspace/issue3/issue3_main.html">aknownspace III <br><br>
+                                    chasing truths </a>
+                            </div>
+                        </div>
+                    </div>
+                
+                
+               
+                </div>
+            </div>
+        </div>
+    </body>
+    
+    <script>
+        const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+        portfolioItems.forEach(portfolioItem => {
+            portfolioItem.addEventListener('mouseover', () => {
+                portfolioItem.childNodes[1].classList.add('img-darken');
+            })
+    
+            portfolioItem.addEventListener('mouseout', () => {
+                portfolioItem.childNodes[1].classList.remove('img-darken');
+            })
+        })
+    
+    </script>
+
+</html>
