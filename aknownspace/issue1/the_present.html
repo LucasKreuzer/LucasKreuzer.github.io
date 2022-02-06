@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Something vulnerable</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="leftside">
+                <div class="navbar-links">
+                    <a href="../../index.html">home</a>
+                </div>
+
+                <div class="navbar-links">
+                    <a href="../../about.html">about</a>
+                </div>
+
+                <div class="navbar-links">
+                    <a href="../../imprint.html">imprint and use of data</a>
+                </div>
+            </div>
+            
+            <div class="rightside">
+                <div class="brand"></div>
+                    <div>YourFriendlyPhysicist</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<center>
+<h1>.The present</h1>
+<p><em>by an anonymous writer<br><br><br></em></p>
+<div class="aknownspace-image-wrapper">
+
+      <img src="images_issue1/the_present.jpg" alt="", style="width: 45vw; min-width: 330px";> 
+      <figcaption><b>The festive decorations on a lonesome clocktower boding everyone a merry 2020</b></figcaption>
+</div>
+
+<div class= "aknownspace-paragraph">
+
+<p> <br><br>
+  Often is it said that you must live in the present. The rationale, quite simply, is that you cannot change the past and do not know what the future holds. 
+  I always took exception to this. The present can be quite a dreary place to live in, a sentiment exemplified by the state of the world today. 
+  Many of us may happily exchange the present for the past. Maybe we were happier in the past, maybe we yearn for the time when simpler things sparked joy in us, 
+  the company of old friends, perhaps an ex-lover. As sentient beings, we can of course choose to live in the past. 
+  But this would be unlikely to bring us any lasting joy as the people who made the past memorable would have moved on and you would find yourself alone, 
+  clinging to now worthless artefacts both physical and emotional. Perhaps best to limit out wanderings into the past to brief forays, 
+  to spend fleeting moments in pleasant memories but not stay long enough to get stuck there. The future, I feel, is not as straightforward to disparage. 
+  If your present is unfulfilled, the future is the promised land. 
+</p>
+<p>
+  The possibilities are only limited by our will and imagination, and some other minor things such as money and your place in society, but best not to dwell on those. 
+  In fact, contrary to my opening line, most of us live in the future. It is just ingrained in us. When we are children, we are told to focus on our studies because that will come of use to us in the future. 
+  To work hard in school so we can hope to get a free ride to University. To work hard in University so we can get a good job. To work hard at our jobs so we can retire comfortably. 
+  A lot of us probably get so used to ‘working hard’ that we likely do so until our demise. I am sure the afterworld, if one exists, is also full of hard-working people trying to make sure that their after-after-life is comfortable. 
+  Anyway, most of us live in the future, a future we hope will be better than the present. In essence, some (most?) of us reason that it is acceptable to use the present to pay for a better future. 
+  Do we, however, have any guarantees that the future will indeed be better if we do so? The world is too chaotic to make any such promises to us. 
+  There is always the chance that all our work to make a better future for us is wiped out by the quick, cruel stroke of chance, or perhaps worse, a deliberate effort of a misanthrope. 
+  I am, of course, assuming that the actions we are taking in the present are selfish, to make our own futures better, and not an effort towards the global good. 
+  There are of course many among us who will be working for the greater good, and for them, I hope that looking to the future is a great motivator. 
+  But most of us plebeians are doomed to swing between ephemeral memories and a forever distant future. Perhaps it is not the worst idea to live in the present after all. 
+  <br><br>
+</p>
+</div>
+<div class= "aknownspace-citation">
+<p>anonymous writer, 'the present', <em>aknownspace</em>, <b>2020</b>, 1, 1</p>
+</div>
+
+</center>
+
+
+    
+    <script>
+        const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+        portfolioItems.forEach(portfolioItem => {
+            portfolioItem.addEventListener('mouseover', () => {
+                portfolioItem.childNodes[1].classList.add('img-darken');
+            })
+    
+            portfolioItem.addEventListener('mouseout', () => {
+                portfolioItem.childNodes[1].classList.remove('img-darken');
+            })
+        })
+    
+    </script>
+
+</html>
