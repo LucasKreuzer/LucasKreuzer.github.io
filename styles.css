@@ -107,12 +107,13 @@ body{
 
 .img-text-wrapper:hover .subtitle{
     font-weight: 600;
-    color: #21618C;
+    color: #ffffff;
 }
+
 
 .img-darken{
     transition: 1s;
-    filter: brightness(10%);
+    filter: brightness(60%); /* adjust fading out*/
 }
 
 /* about page */
@@ -352,4 +353,22 @@ body {
   color: #fff;
   border-radius: 18px;
   box-shadow: 0 0 0 3px #2083c5;
+}
+
+
+/* aknownspace individual articles */
+
+.aknownspace-paragraph{
+
+  text-align:justify;
+  word-spacing: 0px;
+  padding-left: 300px;
+  padding-right: 300px;
+  line-height: 1.25;
+}
+.aknownspace-citation{
+
+  text-align:left;
+  word-spacing: 0px;
+  padding-left: 300px;
 }
