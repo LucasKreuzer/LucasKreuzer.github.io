@@ -56,7 +56,7 @@ body{
     color: black !important;
 }
 
-/* portfolio styles */
+/* index page */
 
 .portfolio-items-wrapper{
     display: grid;
@@ -72,10 +72,26 @@ body{
     width: 100%;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
 }
 .profile-image-wrapper{
     text-align: center;
+}
+
+.image-logoindex{
+  padding-top: 200px;
+  padding-left: 135px;
+}
+
+.image-logoaknownspace{
+  padding-top: 25px;
+  padding-left: 135px;
+}
+
+.video-juju{
+  margin:0 auto;
+  display:block;
+  padding-top: 100px;
 }
 
 .img-text-wrapper{
@@ -104,6 +120,12 @@ body{
     color: transparent;
 }
 
+.img-text-wrapper .subtitle_aknownspace{
+  transition: 1s;
+  font-size: larger;
+  font-weight: 600;
+  color: transparent;
+}
 
 .img-text-wrapper:hover .subtitle{
     font-weight: 600;
@@ -366,9 +388,40 @@ body {
   padding-right: 300px;
   line-height: 1.25;
 }
+
+.aknownspace-paragraph_twocolumns{
+
+  text-align:justify;
+  word-spacing: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 1.25;
+}
+
 .aknownspace-citation{
 
   text-align:left;
   word-spacing: 0px;
   padding-left: 300px;
+}
+
+
+/* polymers individual articles */
+
+.polymer-paragraph{
+
+  text-align:justify;
+  word-spacing: 0px;
+  padding-left: 200px;
+  padding-right: 200px;
+  line-height: 1.25;
+}
+
+.index-paragraph{
+
+  text-align:justify;
+  word-spacing: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  line-height: 1.25;
 }
