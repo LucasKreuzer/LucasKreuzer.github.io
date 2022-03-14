@@ -431,3 +431,20 @@ body {
   padding-right: 0px;
   line-height: 1.25;
 }
+
+/* metals individual articles */
+
+
+.metal-paragraph{
+
+  text-align:justify;
+  word-spacing: 0px;
+  padding-left: 200px;
+  padding-right: 200px;
+  line-height: 1.25;
+}
+
+.image-levitation{
+  padding-top: 0px;
+  padding-right: 200px;
+}
