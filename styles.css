@@ -292,6 +292,12 @@ body {
   box-sizing: border-box;
 }
 
+.journal-image-wrapper img{
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
 /* positioning of the entries, align to the timeline */
 .timeline ul li:nth-child(odd) {
   float: left;
